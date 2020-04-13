@@ -14,6 +14,8 @@
     <!-- OWL CAROUSEL -->
     <link rel="stylesheet" href="./owl/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="./owl/assets/owl.theme.default.min.css">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="./fontawesome/css/all.css">
 
     <title>Aryaman Grover</title>
 </head>
@@ -57,7 +59,7 @@
           <img src="./images/about/4.jpeg" height="600px">
       </div>
       </div>
-      <div class="col s5 offset-s6" id="about" style="height: 500px; position: absolute; ">
+      <div class="col s5 offset-s6" style="height: 500px; position: absolute; ">
       <h1 class="grey-text center-align" style="opacity: 0.4;font-family: 'Anton', sans-serif; letter-spacing: 8px;">ABOUT</h1>
       <br>
       <h5 class="white-text left-align" style="font-family: 'Source Code Pro', monospace;">
@@ -65,13 +67,50 @@
         I am keenly interested in <span class="light-blue-text">Web Development</span>, <span class="light-blue-text">App Development</span>, <span class="light-blue-text">Cyber Security</span> and 
         <span class="light-blue-text">Marketing</span>. I am confident, quick learner, creative, innovative, dedicated and devoted.  
       </h5>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <h5 class="light-blue-text left-align" style="font-family: 'Source Code Pro', monospace;" >Contact Links</h5>
+      <br>
+      <br>
+      <br>
+      <div style="background-color: darkblue;">
+      <!-- LINKS -->
+      <div class="col s1" ><a href="https://github.com/Aryaman1706"><i class="fab fa-github fa-3x" style="color: white;"></i></a></div>
+      <div class="col s1 offset-s1"><a href="#"><i class="fab fa-linkedin fa-3x" style="color: white;"></i></a></div>
+      <div class="col s1 offset-s1"><a href="https://www.instagram.com/aryaman17_61/"><i class="fab fa-instagram-square fa-3x" style="color: white;"></i></a></div>
+      <div class="col s1 offset-s1"><a class="modal-trigger" href="#email"><i class="fas fa-at fa-3x" style="color: white;"></i></a></div>
+      <div class="col s1 offset-s1"><a class="modal-trigger" href="#phone"><i class="fas fa-phone fa-3x" style="color: white;"></i></a></div>
       </div>
-  
-  
-  
-  
-  
-  </div>
+      </div>
+    </div>
+    <div id="email" class="modal" style="background-color: black;">
+      <div class="modal-content">
+        <!-- <i class="material-icons" style="color: white;">close</i> -->
+        <h2 class="center-align white-text" style="opacity: 0.4;font-family: 'Anton', sans-serif; letter-spacing: 8px;">EMAIL ADDRESS</h2>
+        <br>
+        <br>
+        <h5 class="white-text" style="font-family: 'Source Code Pro', monospace;">1761ary@gmail.com</h5>
+        <br>
+        <br>
+        <h5 class="white-text" style="font-family: 'Source Code Pro', monospace;">a_groverbe19@thapar.edu</h5>
+      </div>
+      </div>
+
+      <div id="phone" class="modal" style="background-color: black;">
+        <div class="modal-content">
+          <!-- <i class="material-icons" style="color: white;">close</i> -->
+          <h2 class="center-align white-text" style="opacity: 0.4;font-family: 'Anton', sans-serif; letter-spacing: 8px;">CONTACT NUMBER</h2>
+          <br>
+          <br>
+          <h5 class="white-text" style="font-family: 'Source Code Pro', monospace;">+91-8851418645</h5>
+          <br>
+          <br>
+          <h5 class="white-text" style="font-family: 'Source Code Pro', monospace;">+91-8264089654</h5>
+        </div>
+    </div>
     <!-- ABOUT ENDING  -->
         <!-- scripts -->
     <script src="./node_modules/particles.js/particles.js"></script>
@@ -99,6 +138,8 @@
       $(document).ready(function(){
          // Init Sidenav
         $('.button-collapse').sideNav();
+        $('.modal').modal();
+  
       });
     </script>
     
