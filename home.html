@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- PARTICLES CSS -->
+    <link rel="stylesheet" href="./node_modules/particles.js/demo/css/style.css">
+    <!-- MATERIALIZE CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+    <!-- ICONS -->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
+    <!-- OWL CAROUSEL -->
+    <link rel="stylesheet" href="./owl/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./owl/assets/owl.theme.default.min.css">
+
+    <title>Aryaman Grover</title>
+</head>
+<style>
+    #switch::before{
+        content: "";
+        animation: words 5s infinite;
+    }
+
+    @keyframes words {
+        0% {content: "Student";}
+        25% {content: "Web Developer";} 
+        50% {content:"Coder";}
+        75% {content:"Writer";}
+        100% {content:"Public Speaker";}
+    }
+</style>
+<body>
+  <!-- INTRO STARTING   -->
+  <div class="valign-wrapper" style="position: absolute; height:100%; width: 100%;">
+      <div  style="margin: auto;">
+        <h5 class="white-text center-align" style="margin: 0px 0px 0px 5px; font-family: 'Source Code Pro', monospace;">Hello Everyone, I am</h5>
+        <h1 class="white-text center-align" style="margin-top:5px; font-family: 'Anton', sans-serif;  letter-spacing: 8px;">ARYAMAN GROVER</h1>
+        <h4 class="center-align white-text" style="font-family: 'Source Code Pro', monospace;">& I AM A <span class="left-align light-blue-text" id="switch" style="font-family: 'Source Code Pro', monospace;"></span></h4>
+      </div>
+    </div>
+    <div id="particles-js" style="background-color: black;"></div>
+    <!-- INTRO ENDING -->
+
+    <!-- ABOUT STARTING -->
+  <div style="background-color: black; height: 100%;">
+    <br>
+    <br>
+    <div class="row">
+      <br>
+      <div class="col s3 offset-s1" style="height: 600px; border-style: none solid none solid; border-width: medium; border-color: #03a9f4;">
+        <div class="owl-carousel">
+          <img src="./images/about/1.jpeg" height="600px">
+          <img src="./images/about/2.jpeg" height="600px">
+          <img src="./images/about/3.jpg" height="600px">
+          <img src="./images/about/4.jpeg" height="600px">
+      </div>
+      </div>
+      <div class="col s5 offset-s6" style="height: 500px; position: absolute; ">
+      <h1 class="grey-text center-align" style="opacity: 0.4;font-family: 'Anton', sans-serif; letter-spacing: 8px;">ABOUT</h1>
+      <br>
+      <h5 class="white-text left-align" style="font-family: 'Source Code Pro', monospace;">
+        I am currently pursuing Bachelors in Engineering from <span class="light-blue-text">Thapar Institute of Engineering and Technology, Patiala, Punjab</span> . 
+        I am also a part of OWASP, Student Chapter. I did my schooling from Mata Jai Kaur Public School, Ashok Vihar, New Delhi (till 10th) and 
+        Modern Vidya Niketan, Faridabad, NCR (+1 and +2). I scored 9.4 CGPA and 90% in 10th and 12th board examination respectively.
+        I am keenly interested in <span class="light-blue-text">Web Development</span>, <span class="light-blue-text">App Development</span>, <span class="light-blue-text">Cyber Security</span> and 
+        <span class="light-blue-text">Marketing</span>. I am confident, quick learner, creative, innovative, dedicated and devoted.  
+      </h5>
+      </div>
+  
+  
+  
+  
+  
+  </div>
+    <!-- ABOUT ENDING  -->
+    
+        <!-- scripts -->
+    <script src="./node_modules/particles.js/particles.js"></script>
+    <script src="./node_modules/particles.js/demo/js/app.js"></script>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+    <script src="./owl/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function(){
+          var owl = $('.owl-carousel');
+              owl.owlCarousel({
+                  items:1,
+                  loop:true,
+                  margin:10,
+                  autoplay:true,
+                  autoplayTimeout:3000,
+                  autoplayHoverPause:true
+})
+        });
+
+    </script>
+
+    <script>
+      $(document).ready(function(){
+         // Init Sidenav
+        $('.button-collapse').sideNav();
+      });
+    </script>
+  </body>
+</html>
