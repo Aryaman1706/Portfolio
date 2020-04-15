@@ -1,0 +1,22 @@
+.aboutimg{
+    height:600px;
+}
+@media screen and (max-width: 720px){
+    .aboutSection{
+        width:80% !important;
+        height: 300px !important;
+        margin-left:10% !important;
+        
+    }
+    .aboutText{
+        width:80% !important;
+        margin-left:10% !important;
+        position: relative !important;
+    }
+    .text{
+        font-size: large;
+    }
+    .aboutimg{
+        height:300px;
+    }
+}

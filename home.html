@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="./owl/assets/owl.theme.default.min.css">
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="./fontawesome/css/all.css">
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="style.css">
 
     <title>Aryaman Grover</title>
 </head>
@@ -49,20 +51,20 @@
   <div style="background-color: black; height: 100%;">
     <br>
     <br>
-    <div class="row">
+    <div class="row" style="background-color: black;">
       <br>
-      <div class="col s3 offset-s1" style="height: 600px; border-style: none solid none solid; border-width: medium; border-color: #03a9f4;">
+      <div class="col s3 offset-s1 aboutSection" style="height: 600px; border-style: none solid none solid; border-width: medium; border-color: #03a9f4;">
         <div class="owl-carousel">
-          <img src="./images/about/1.jpeg" height="600px">
-          <img src="./images/about/2.jpeg" height="600px">
-          <img src="./images/about/3.jpg" height="600px">
-          <img src="./images/about/4.jpeg" height="600px">
+          <img class="aboutimg" src="./images/about/1.jpeg">
+          <img class="aboutimg" src="./images/about/2.jpeg">
+          <img class="aboutimg" src="./images/about/3.jpg">
+          <img class="aboutimg" src="./images/about/4.jpeg">
       </div>
       </div>
-      <div class="col s5 offset-s6" style="height: 500px; position: absolute; ">
+      <div class="col s5 offset-s6 aboutText" style="height: 500px; position: absolute; ">
       <h1 class="grey-text center-align" style="opacity: 0.4;font-family: 'Anton', sans-serif; letter-spacing: 8px;">ABOUT</h1>
       <br>
-      <h5 class="white-text left-align" style="font-family: 'Source Code Pro', monospace;">
+      <h5 class="white-text left-align text" style="font-family: 'Source Code Pro', monospace;">
         I am currently pursuing Bachelors in Engineering (Freshman Year) from <span class="light-blue-text">Thapar Institute of Engineering and Technology, Patiala, Punjab</span>.<br> 
         I am keenly interested in <span class="light-blue-text">Web Development</span>, <span class="light-blue-text">App Development</span>, <span class="light-blue-text">Cyber Security</span> and 
         <span class="light-blue-text">Marketing</span>.<br>I am confident, quick learner, creative, innovative, dedicated and devoted.  
@@ -79,38 +81,39 @@
       <div style="background-color: darkblue;">
       <!-- LINKS -->
       <div class="col s1" ><a href="https://github.com/Aryaman1706"><i class="fab fa-github fa-3x" style="color: white;"></i></a></div>
-      <div class="col s1 offset-s1"><a href="#"><i class="fab fa-linkedin fa-3x" style="color: white;"></i></a></div>
-      <div class="col s1 offset-s1"><a href="https://www.instagram.com/aryaman17_61/"><i class="fab fa-instagram-square fa-3x" style="color: white;"></i></a></div>
-      <div class="col s1 offset-s1"><a class="modal-trigger" href="#email"><i class="fas fa-at fa-3x" style="color: white;"></i></a></div>
-      <div class="col s1 offset-s1"><a class="modal-trigger" href="#phone"><i class="fas fa-phone fa-3x" style="color: white;"></i></a></div>
+      <div class="col s1 offset-s1 links"><a href="#"><i class="fab fa-linkedin fa-3x" style="color: white;"></i></a></div>
+      <div class="col s1 offset-s1 links"><a href="https://www.instagram.com/aryaman17_61/"><i class="fab fa-instagram-square fa-3x" style="color: white;"></i></a></div>
+      <div class="col s1 offset-s1 links"><a class="modal-trigger" href="#email"><i class="fas fa-at fa-3x" style="color: white;"></i></a></div>
+      <div class="col s1 offset-s1 links"><a class="modal-trigger" href="#phone"><i class="fas fa-phone fa-3x" style="color: white;"></i></a></div>
       </div>
       </div>
-    </div>
-    <div id="email" class="modal" style="background-color: black;">
-      <div class="modal-content">
-        <!-- <i class="material-icons" style="color: white;">close</i> -->
-        <h2 class="center-align white-text" style="opacity: 0.4;font-family: 'Anton', sans-serif; letter-spacing: 8px;">EMAIL ADDRESS</h2>
-        <br>
-        <br>
-        <h5 class="white-text" style="font-family: 'Source Code Pro', monospace;">1761ary@gmail.com</h5>
-        <br>
-        <br>
-        <h5 class="white-text" style="font-family: 'Source Code Pro', monospace;">a_groverbe19@thapar.edu</h5>
-      </div>
-      </div>
-
-      <div id="phone" class="modal" style="background-color: black;">
-        <div class="modal-content">
+      <div id="email" class="modal" style="background-color: black;">
+        <div class="modal-content email">
           <!-- <i class="material-icons" style="color: white;">close</i> -->
-          <h2 class="center-align white-text" style="opacity: 0.4;font-family: 'Anton', sans-serif; letter-spacing: 8px;">CONTACT NUMBER</h2>
+          <h2 class="center-align white-text" style="opacity: 0.4;font-family: 'Anton', sans-serif; letter-spacing: 8px;">EMAIL ADDRESS</h2>
           <br>
           <br>
-          <h5 class="white-text" style="font-family: 'Source Code Pro', monospace;">+91-8851418645</h5>
+          <h5 class="white-text text" style="font-family: 'Source Code Pro', monospace;">1761ary@gmail.com</h5>
           <br>
           <br>
-          <h5 class="white-text" style="font-family: 'Source Code Pro', monospace;">+91-8264089654</h5>
+          <h5 class="white-text text" style="font-family: 'Source Code Pro', monospace;">a_groverbe19@thapar.edu</h5>
         </div>
+        </div>
+    
+        <div id="phone" class="modal" style="background-color: black;">
+          <div class="modal-content">
+            <!-- <i class="material-icons" style="color: white;">close</i> -->
+            <h2 class="center-align white-text" style="opacity: 0.4;font-family: 'Anton', sans-serif; letter-spacing: 8px;">CONTACT NUMBER</h2>
+            <br>
+            <br>
+            <h5 class="white-text" style="font-family: 'Source Code Pro', monospace;">+91-8851418645</h5>
+            <br>
+            <br>
+            <h5 class="white-text" style="font-family: 'Source Code Pro', monospace;">+91-8264089654</h5>
+          </div>
+      </div>
     </div>
+    
     <!-- ABOUT ENDING  -->
         <!-- scripts -->
     <script src="./node_modules/particles.js/particles.js"></script>
