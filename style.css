@@ -9,8 +9,8 @@
         
     }
     .aboutText{
-        width:80% !important;
-        margin-left:10% !important;
+        width:90% !important;
+        margin-left:5% !important;
         position: relative !important;
     }
     .text{
@@ -18,5 +18,8 @@
     }
     .aboutimg{
         height:300px;
+    }
+    .skills{
+        margin-top: 120px;
     }
 }
