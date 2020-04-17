@@ -18,6 +18,10 @@
     <link rel="stylesheet" href="./fontawesome/css/all.css">
     <!-- CUSTOM CSS -->
     <link rel="stylesheet" href="style.css">
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <!-- ANIMATE CSS -->
+    <link rel="stylesheet" href="animate.css">
 
     <title>Aryaman Grover</title>
 </head>
@@ -54,7 +58,7 @@
     <div class="row" style="background-color: black; margin-bottom: 0px;">
       <br>
       <div class="col s3 offset-s1 aboutSection" style="height: 600px; border-style: none solid none solid; border-width: medium; border-color: #03a9f4;">
-        <div class="owl-carousel">
+        <div class="owl-carousel owl-one">
           <img class="aboutimg" src="./images/about/1.jpeg">
           <img class="aboutimg" src="./images/about/2.jpeg">
           <img class="aboutimg" src="./images/about/3.jpg">
@@ -113,15 +117,40 @@
           </div>
       </div>
     </div>
-    
+    <br>
     <!-- ABOUT ENDING  -->
     
     <!-- SKILLS STARTING -->
     <div style="background-color:black">
       <br>
-      <h1 class="grey-text center-align" style="opacity: 0.4;font-family: 'Anton', sans-serif; letter-spacing: 8px;">SKILLS</h1>
+      <h1 class="grey-text center-align" style="opacity: 0.4;font-family: 'Anton', sans-serif; letter-spacing: 8px; margin-bottom: 5px;">MY SKILLS INCLUDE </h1>
+      <div class="owl-carousel owl-two">
+        <h2 class="light-blue-text center-align" style="font-family: 'Source Code Pro', monospace; margin: 5px;">JAVASCRIPT</h2>
+        <h2 class="light-blue-text center-align" style="font-family: 'Source Code Pro', monospace; margin: 5px;">NODE JS</h2>
+        <h2 class="light-blue-text center-align" style="font-family: 'Source Code Pro', monospace; margin: 5px;">PYTHON</h2>
+        <h2 class="light-blue-text center-align" style="font-family: 'Source Code Pro', monospace; margin: 5px;">C++</h2>
+        <h2 class="light-blue-text center-align" style="font-family: 'Source Code Pro', monospace; margin: 5px;">MONGO DB</h2>
+        <h2 class="light-blue-text center-align" style="font-family: 'Source Code Pro', monospace; margin: 5px;">EXPRESS JS</h2>
+      </div>
+      <br>
+      <br>
+        <div class="container">
+          <div class="skillcard1" style="height: 100px; width: 20%; background-color: blue; display: inline-block; margin-bottom: 30px;"></div>
+          <div class="skillcard" style="height: 100px; width: 20%; background-color: blue; display: inline-block; margin-left: 5%; margin-bottom: 30px;"></div>
+          <div class="skillcard" style="height: 100px; width: 20%; background-color: blue; display: inline-block; margin-left: 5%; margin-bottom: 30px;"></div>
+          <div class="skillcard" style="height: 100px; width: 20%; background-color: blue; display: inline-block; margin-left: 5%; margin-bottom: 30px;"></div>
+
+
+          <div class="skillcard1" style="height: 100px; width: 20%; background-color: blue; display: inline-block; margin-bottom: 30px;"></div>
+          <div class="skillcard" style="height: 100px; width: 20%; background-color: blue; display: inline-block; margin-left: 5%; margin-bottom: 30px;"></div>
+          <div class="skillcard" style="height: 100px; width: 20%; background-color: blue; display: inline-block; margin-left: 5%; margin-bottom: 30px;"></div>
+          <div class="skillcard" style="height: 100px; width: 20%; background-color: blue; display: inline-block; margin-left: 5%; margin-bottom: 30px;"></div>
+          
+        </div>
+        
     </div>
-    <!-- SKILLS ENDING  -->
+
+    <!--SKILLS ENDING -->
     
     <!-- scripts -->
     <script src="./node_modules/particles.js/particles.js"></script>
@@ -132,7 +161,7 @@
     <script src="./owl/owl.carousel.min.js"></script>
     <script>
         $(document).ready(function(){
-          var owl = $('.owl-carousel');
+          var owl = $('.owl-one');
               owl.owlCarousel({
                   items:1,
                   loop:true,
@@ -140,10 +169,29 @@
                   autoplay:true,
                   autoplayTimeout:3000,
                   autoplayHoverPause:true
-})
+              })
+              
         });
 
     </script>
+
+<script>
+  $(document).ready(function(){
+    var owl = $('.owl-two');
+        owl.owlCarousel({
+            items:1,
+            loop:true,
+            margin:10,
+            autoplay:true,
+            autoplayTimeout:2000,
+            autoplayHoverPause:false,
+            animateOut: 'bounceOutDown',
+            animateIn: 'bounceInDown',
+       })
+        
+  });
+
+</script>
 
     <script>
       $(document).ready(function(){
