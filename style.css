@@ -1,6 +1,37 @@
 .aboutimg{
     height:600px;
 }
+.skillcard1{
+    /* height: 100px;  */
+    width: 20%; 
+    /* background-color: blue;  */
+    display: inline-block; 
+    margin-bottom: 30px;
+}
+.skillcard{
+    /* height: 100px;  */
+    width: 20%;
+    /* background-color: blue;  */
+    display: inline-block; 
+    margin-left: 5%; 
+    margin-bottom: 30px;
+}
+.skillcard1m{
+    /* height: 100px;  */
+    width: 20%;
+    /* background-color: blue;  */
+    display: inline-block; 
+    margin-left: 5%; 
+    margin-bottom: 30px;
+}
+.skillcard1d{
+    /* height: 100px;  */
+    width: 20%; 
+    /* background-color: blue;  */
+    display: inline-block; 
+    margin-bottom: 30px;
+}
+
 @media screen and (max-width: 800px){
     .aboutSection{
         width:60% !important;
@@ -19,11 +50,22 @@
     .aboutimg{
         height:300px;
     }
-    /* .skillcard{
+    .skillcard{
         width: 30%!important;
-        margin-left: 20%!important;
+        margin-left: 3%!important;
     }
     .skillcard1{
         width: 30%!important;
-    } */
+    }
+    .skillcard1m{
+        width: 30%!important;
+        margin-left: 0px!important;
+    }
+    .skillcard1d{
+        width: 30%!important;
+        margin-left: 3%!important;
+    }
+    .st{
+        font-size: large;
+    }
 }
