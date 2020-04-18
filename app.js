@@ -15,8 +15,8 @@ container.addEventListener('mouseout',e=>{
 
 
 function add(skill){
-    skill.classList.add('animated', 'tada', 'infinite');
+    skill.classList.add('animated', 'pulse', 'infinite', 'fast');
 }
 function remove(skill){
-    skill.classList.remove('animated', 'tada', 'infinite')
+    skill.classList.remove('animated', 'pulse', 'infinite', 'fast')
 }

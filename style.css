@@ -31,7 +31,9 @@
     display: inline-block; 
     margin-bottom: 30px;
 }
-
+.st:hover{
+    color: #03a9f4!important;
+}
 @media screen and (max-width: 800px){
     .aboutSection{
         width:60% !important;
